@@ -1,0 +1,72 @@
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200; 
+    forced-color-adjust: block;
+    padding: auto;
+    color-scheme: darkorange;
+    border-bottom: ridge;
+
+}
+h3{
+color: red;
+
+}
+#std{
+    color: blue;
+}
+#poke{
+    color-scheme: brown;
+}
+#dept{
+    color: mediumorchid;
+}
+#sec{
+    color: maroon;
+}
+.joy{
+    color: red;
+}
+.junak{
+    color: blue;
+}
+.tanay{
+    color: green;
+}
+.Sebok{
+    color: crimson;
+}
+.ray{
+    color: rgb(188, 10, 185);
+}
+.qudroti{
+    color: rgb(255, 0, 255);
+}
+#jack{
+    color: rgb(214, 175, 238);
+}
+main{
+    display: flexbox;
+    border-color: red;
+}
+footer{
+    color: rgb(34, 7, 242);
+}
+#nishad input[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#nishad input[type="reset"] {
+    background-color: green;
+    color: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#nishad input[type="submit"]:hover, 
+#nishad input[type="reset"]:hover {
+    opacity: 0.8;
+}

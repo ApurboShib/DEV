@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a description" />
+    <meta name="keywords" content="html, css, java" />
+    <meta name="robots" content="INDEX, FOLLOW" />
+    
+    <title>Forms and Input Tags</title>
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="demo.css" />
+    <!-- Link to external JavaScript file -->
+    <script src="demo.js"></script>
+</head>
+<body>
+    <h2>This is an HTML forms tutorial</h2>
+
+    <!-- Start of the form element. The form data will be sent to 'backend.php' -->
+    <form action="backend.php">
+        <!-- Input for the user's name -->
+        <div>
+            <label for="Myname">Name:</label>
+            <input type="text" id="Myname" name="Myname" />
+        </div>
+        <br />
+
+        <!-- Input for the student's ID -->
+        <div>
+            <label for="Myid">Student ID:</label>
+            <input type="text" id="Myid" name="Myid" />
+        </div>
+        <br />
+
+        <!-- Input for the user's email address -->
+        <div>
+            <label for="myemail">Email:</label>
+            <input type="email" id="myemail" name="myemail" />
+        </div>
+        <br />
+
+        <!-- Input for selecting a date -->
+        <div>
+            <label for="Mydate">Date:</label>
+            <input type="date" id="Mydate" name="Mydate" />
+        </div>
+        <br />
+
+        <!-- Input for bonus amount -->
+        <div>
+            <label for="Mybonus">Bonus:</label>
+            <input type="number" id="Mybonus" name="Mybonus" />
+        </div>
+        <br />
+
+        <!-- Checkbox for eligibility -->
+        <div>
+            <label for="Myeligibility">Are you eligible?</label>
+            <input type="checkbox" id="Myeligibility" name="Myeligibility" />
+        </div>
+        <br />
+
+        <!-- Radio buttons for gender selection -->
+        <div>
+            <span>Gender:</span>
+            <label><input type="radio" name="mygender" value="male" /> Male</label>
+            <label><input type="radio" name="mygender" value="female" /> Female</label>
+            <label><input type="radio" name="mygender" value="other" /> Other</label>
+        </div>
+        <br />
+
+        <!-- Textarea for writing about oneself -->
+        <div>
+            <label for="mytext">Write About Yourself:</label>
+            <textarea id="mytext" name="mytext" cols="30" rows="10"></textarea>
+        </div>
+        <br />
+
+        <!-- Dropdown for car selection -->
+        <div>
+            <label for="car"> Car</label>
+            <select name="mycar" id="car">
+                <option value="dwf" selected>  swift</option>
+                <option value="ind"> tata</option>
+            </select>
+           
+        </div>
+        <br />
+
+        <!-- Submit and reset buttons for the form -->
+        <div>
+            <input type="submit" value="Submit Now" />
+            <input type="reset" value="Reset Now" />
+        </div>
+    </form>
+</body>
+</html>

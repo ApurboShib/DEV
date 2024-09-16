@@ -1,0 +1,22 @@
+header{
+    forced-color-adjust: blueprint;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 2px;
+    box-shadow: inset;
+    column-width: 10;
+
+}
+#names{
+    color-scheme: solid transparent rgb(137, 14, 14);
+}
+
+#firstpera{
+    color: red;
+}
+#secondpera{
+    color: maroon;
+    
+}
+#thirdpera{
+    color: pink;
+}

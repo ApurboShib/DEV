@@ -1,0 +1,17 @@
+#hello{
+    color: red;
+    border: 5px solid black;
+    background-color: blueviolet;
+    forced-color-adjust: middle;
+}
+.col{
+    font-variant: small-caps;
+    font-variant-position: super;
+    background-position: 2px;
+    padding-left: 2px;
+    font-size: bold;
+    backdrop-filter: rgb(229, 225, 225);
+    
+
+
+}
