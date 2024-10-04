@@ -1,0 +1,24 @@
+h2{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+}
+main{
+    text-transform: capitalize;
+    text-shadow: 3.0rem;
+    text-decoration-color: green;
+    font-style: oblique;
+    forced-color-adjust: rgb(194, 17, 17);
+}
+.link_style{
+    color-scheme: green;
+    column-count: auto;
+    text-align: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    
+}
