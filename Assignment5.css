@@ -1,0 +1,11 @@
+#outer{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+#inner{
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+
+}

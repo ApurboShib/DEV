@@ -1,0 +1,21 @@
+#p1{
+    font-size: 25px;
+    /* line-height: 20px; space barano komanor jonno use korbo */
+    text-decoration: underline;  /* underline, overline, caile use korbo  */
+    text-transform: capitalize; /*capital, itelic, or other type use er jonno */
+
+}
+#p2
+{
+    font-size: 10px;
+    line-height: 30px;
+    text-decoration: overline;
+    text-transform: lowercase;
+}
+#p3{
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+    text-decoration: dotted;
+
+}
