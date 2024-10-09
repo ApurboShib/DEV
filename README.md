@@ -1,1 +1,1 @@
- have learned HTML, CSS, and JavaScript from CodeWithHarry and have uploaded my projects to this repository.
+ have learned HTML, CSS, and JavaScript from CodeWithHarry, Apna college and have uploaded my projects to this repository.
