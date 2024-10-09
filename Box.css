@@ -1,0 +1,26 @@
+div{
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    border-width: 4px;
+    border-style: dotted;
+    border-color: brown;
+    text-align: center;
+
+
+}
+button{
+    background-color: greenyellow;
+    border: 5px solid rgb(30, 241, 19);
+}
+h2{
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    border-width: 3px;
+    border-color: pink;
+    border-style: dashed;
+    text-align: center;
+
+
+}

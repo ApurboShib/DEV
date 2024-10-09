@@ -1,0 +1,39 @@
+#b1{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-style: dotted;
+    border-width: 4px;
+    border-color: navy;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 25%;
+    padding-bottom: 25%;
+    padding-right: 25%;
+    padding-top: 25%;
+}
+#b2{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(13, 255, 0);
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(128, 0, 47);
+    border-radius: 10px;
+    text-align: center;
+}
+#b3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 55, 0);
+    border-style: dashed;
+    border-width: 4px;
+    border-color: rgb(115, 0, 128);
+    border-radius:50%;
+    text-align: center;
+    padding-left: 25%;
+    padding-bottom: 25%;
+    padding-right: 25%;
+    padding-top: 25%;
+
+} 
