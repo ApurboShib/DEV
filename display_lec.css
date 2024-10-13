@@ -1,0 +1,23 @@
+div{
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;
+    
+
+}
+#b1{
+    background-color: blue;
+    display: block;
+
+}
+#b2{
+    background-color: red;
+    display: block;
+}
+#b3{
+    background-color: green;
+    display: inline-block;
+}
