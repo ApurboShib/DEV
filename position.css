@@ -1,0 +1,36 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    display: inline-block;
+    border: 2px solid red;
+}
+
+#box1{
+    position: static;
+    top: 20px;
+    right: 20px;
+    /* int the static position we cannnot change because it's a default position. */
+}
+#box2{
+    position: relative;
+    top: 30px;
+    right: 10px;
+    text-align: center;
+    /* elements is relative itself.(the top,right,left, bootom, and z-insed will work). */
+}
+#box3{
+    position: absolute;
+    top: 10px;
+    /* top er position set hbe tar parent theke, jemon ekhane er parent holo body tai er position tao full 
+    body theke top eh 10px set hoiche. */
+    right: 19px;
+}
+#box4{
+    position: fixed;
+    /* elements relative to the browser */
+    right: 20px;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
