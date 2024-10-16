@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+
+}
+#container {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    /* flex-direction: row; -> left to right set hobe direction. */
+    /* flex-direction: -> row-reverse; right to left hobe directions. */
+    /* flex-direction: column; -> top theke bottom er dike direction hobe. */
+    /* flex-direction: column-reverse; -> bottom theke top er dike direction hobe. */
+    /* justify-content: center; -> div er pisition change hobe tobe box er number change hbe na. */
+    justify-content: flex-end;
+
+}
+#box1{
+    background-color: blue;
+}
+#box2{
+    background-color: green;
+}
+#box3{
+    background-color: pink;
+}
+#box4{
+    background-color: purple;
+}
+#box5{
+    background-color: maroon;
+}
