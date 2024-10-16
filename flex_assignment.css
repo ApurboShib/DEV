@@ -1,0 +1,35 @@
+li{
+    list-style-type: none;
+    background-color: white;
+    color: black;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+ul{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center; 
+    /* vartically change krte caile justify-content use korbo. */
+    align-items: center; 
+    /* horijontally change korte caile align-item use korbo. */
+}
+.inner{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    
+    
+
+}
